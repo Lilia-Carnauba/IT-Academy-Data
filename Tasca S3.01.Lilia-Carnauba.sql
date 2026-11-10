@@ -257,3 +257,8 @@ LEFT JOIN sold AS s
     ON SAFE_CAST(p.product_id AS INT64) = s.product_id
 GROUP BY p.product_id, p.name, p.price, p.colour
 ORDER BY total_sold DESC;
+
+-- Nivel 3 
+-- Exercici 3
+select * 
+FROM sprint3-analytics-lilia.sprint3_gold.product_sales_ranking;
